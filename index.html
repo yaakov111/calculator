@@ -8,18 +8,21 @@
 
   </head>
   <body>
-    <h1>מחשבון זיכוי יחסי</h1>
+    <h1><br> מחשבון זיכוי יחסי</h1>
 <button type="button" id="full" onclick="fullclik()" name="full">זיכוי מלא</button>
 <button type="button" id="difference" onclick="diffclik()" name="difference">זיכוי הפרשים</button><br><br>
 <p id="exp">הזיכוי המגיע ללקוח במקרה של חיוב ללא חבילה מספר ימים הפחות מחודש ויש לזכות אותו בסכום ההפרשים</p>
 <form class="nn" action="" method="post" >
-  <label  id="1" for="a">מחיר חדושי עם תוכנית</label><br/>
+  <div class="vv">
+
+  <label  id="1" for="a">מחיר חדושי עם תוכנית</label>
   <input id="t" type="number" name="a" value=""><br/>
-  <label  id="2" for="a">מחיר חודשי ללא תוכנית</label><br/>
+  <label  id="2" for="a">מחיר חודשי ללא תוכנית</label>
   <input id="u" type="number" name="b" value=""><br/>
-  <label  id="3" for="a">מספר הימים שעליהם שולם ללא תוכנית</label><br>
+  <label  id="3" for="a">מספר הימים שעליהם שולם ללא תוכנית</label>
   <input  id="4" type="number" name="c" value=""><br/>
-  <label  for="a">מספר הימים בחודש</label><br/>
+  </div>
+  <label  for="a">מספר הימים בחודש</label>
   <button class="q" id="28" onclick="date(28)" type="button" name="button">28</button>
   <button class="q" id="29" onclick="date(29)" type="button" name="button">29</button>
   <button class="q" id="30" onclick="date(30)" type="button" name="button">30</button>
@@ -27,7 +30,7 @@
 
 </form>
   <input class="o" onclick="cal()" type="submit" name="" value="חישוב"><br><br>
-<span class="bb" id = "rez"></span>
+<p class="bb" id = "rez"> </p>
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
