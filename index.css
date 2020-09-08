@@ -1,0 +1,23 @@
+body{
+text-align: center;
+}
+.nn{
+
+  justify-content: center;
+  align-items:center;
+
+}
+#difference{
+  background-color: #FAFAD2;
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+}
+.m{
+  background-color: #FAFAD2;
+}
+#full{
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+}
